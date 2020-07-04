@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Container, Col, Row, media } from 'styled-bootstrap-grid';
-import { colors, getRemsFromPixels } from "../../styles";
+import {colors, fontFamily, getRemsFromPixels} from "../../styles";
 
 export const StyledHero = styled(Container)`
     display: flex;
@@ -19,9 +19,6 @@ export const StyledHero = styled(Container)`
     button:hover {
         cursor: pointer;
     }
-    ${media.md`
-        background-blend-mode: normal;
-    `}
 `;
 
 export const FullHeightRow = styled(Row)`
@@ -86,13 +83,9 @@ export const Header = styled.div`
     margin: auto;
     ${media.lg`
         display: inline-flex;
-        border: ${getRemsFromPixels(1)} solid ${colors.white};
     `}
-    &:hover {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
-    
     button {
+        font-family: ${fontFamily.poppins};
         border: 0;
         background: transparent;
         font-size: ${getRemsFromPixels(18)};
@@ -116,11 +109,11 @@ export const Header = styled.div`
         }
         &:hover {
             outline: 0;
-            color: ${colors.ebonyClay};
+            color: ${colors.burningOrange};
             text-shadow: ${getRemsFromPixels(1)} ${getRemsFromPixels(1)} transparent;
             &:after {
                 width: 100%;
-                border-color: ${colors.ebonyClay};
+                border-color: ${colors.burningOrange};
             }
         }
     }

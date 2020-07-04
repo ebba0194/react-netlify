@@ -16,13 +16,13 @@ const Hero = () => (
                 <Header>
                     <ul>
                         <li>
-                            <button onClick={() => document.getElementById('about').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})}>About</button>
+                            <button onClick={() => document.getElementById('about').scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"})}>About</button>
                         </li>
                         <li>
-                            <button onClick={() => document.getElementById('projects').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})}>Projects</button>
+                            <button onClick={() => document.getElementById('projects').scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"})}>Projects</button>
                         </li>
                         <li>
-                            <button onClick={() => document.getElementById('contact').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})}>Contact</button>
+                            <button onClick={() => document.getElementById('contact').scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"})}>Contact</button>
                         </li>
                     </ul>
                 </Header>
@@ -42,7 +42,7 @@ const Hero = () => (
         </Row>
         <FullHeightRow>
             <ButtonWrapper col={12}>
-                <button onClick={() => document.getElementById('about').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})}>
+                <button onClick={() => document.getElementById('about').scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"})}>
                     <svg viewBox="0 0 24 24" height="80" width="80" focusable="false" role="img" fill={colors.white}
                          xmlns="http://www.w3.org/2000/svg" className="StyledIconBase-ea9ulj-0 iKhrnw">
                         <title>CaretDownCircle icon</title>

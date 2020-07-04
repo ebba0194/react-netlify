@@ -10,8 +10,8 @@ export const getRemsFromPixels = (pixels) => {
 };
 
 export const fontFamily = {
-    montserrat: 'Montserrat',
-    abril: 'Abril Fatface',
+    raleway: 'Raleway',
+    poppins: 'Poppins',
 };
 
 export const colors = {
@@ -28,13 +28,15 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     line-height: 1.5;
+    overflow-x: hidden;
   }
   html {
     font-size: ${global.fontSize};
   }
   body {
+    color: ${colors.ebonyClay};
     font-size: ${getRemsFromPixels(16)};
-    font-family: ${fontFamily.montserrat};
+    font-family: ${fontFamily.raleway};
     font-weight: 400;
     margin: 0;
   }
@@ -50,10 +52,16 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   h1, h2, h3, h4, h5 {
-    font-family: ${fontFamily.montserrat};
+    font-family: ${fontFamily.poppins};
+  }
+  h3 {    
+    font-size: ${getRemsFromPixels(32)};
+  }
+  a {
+    color: ${colors.ebonyClay};
   }
   button {
-    font-family: ${fontFamily.montserrat};
+    font-family: ${fontFamily.raleway};
     &:hover {
         cursor: pointer;
     }
