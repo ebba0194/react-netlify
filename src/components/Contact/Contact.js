@@ -9,7 +9,7 @@ const Contact = () => (
                     <iframe
                         title="Contact Form"
                         src="https://docs.google.com/forms/d/e/1FAIpQLSdwWWCw8A7L9W8RWdyHh-2Us4r2rcCQIiw_IdXjg5xTJHLECA/viewform?embedded=true"
-                        width={window.innerWidth - 30} height="1200" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
+                        width={window.innerWidth - 30} height="1024" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                     </iframe>
                 </div>
             </Col>
