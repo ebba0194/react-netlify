@@ -49,5 +49,6 @@ export const LogosWrap = styled.div`
 `;
 
 export const Logo = styled.div`
-    width: 20%;
+    min-width: 20%;
+    flex-grow: 1;
 `;

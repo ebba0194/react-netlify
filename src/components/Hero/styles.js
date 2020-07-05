@@ -74,16 +74,13 @@ export const Header = styled.div`
     padding: ${getRemsFromPixels(10)} ${getRemsFromPixels(48)};
     box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     transition: 0.2s ease-in-out;
     max-width: 100%;
     width: auto;
     margin: auto;
-    ${media.lg`
-        display: inline-flex;
-    `}
     button {
         font-family: ${fontFamily.poppins};
         border: 0;
@@ -122,11 +119,8 @@ export const Header = styled.div`
         margin: 0;
         padding: 0;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: flex-flow: row wrap;
         justify-content: center;
         align-items: center;
-        ${media.md`
-            flex-flow: row wrap;
-        `}
     }
 `;

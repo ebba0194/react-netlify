@@ -3,14 +3,13 @@ import styled from 'styled-components';
 import {colors, getRemsFromPixels} from "../../styles";
 
 export const ProjectContainer = styled(Container)`
-    padding-bottom: ${getRemsFromPixels(128)};
+    padding-top: ${getRemsFromPixels(64)};
     text-align: center;
     vertical-align: center;
     svg {
         fill: ${colors.burningOrange};
     }
     ${media.md`
-        padding-top: ${getRemsFromPixels(64)};
         text-align: left;
     `}
     h3 {
@@ -25,19 +24,16 @@ export const Margin = styled.div`
 export const CollapsibleWrap = styled.div`
     display: flex;
     flex-flow: column nowrap;
-    min-height: ${getRemsFromPixels(300)};
 `;
 
 export const ContentWrap = styled.div`
-    max-height: 0;
     opacity: 0;
-    padding: 0 ${getRemsFromPixels(32)};
+    display: none;
     overflow: hidden;
-    transition: 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out 0.1s;
     ${({ show }) => show && `
-        height: 100%;
-        max-height: ${getRemsFromPixels(1000)};
         opacity: 1;
+        display: block;
         padding: ${getRemsFromPixels(32)};
     `}
 `;
