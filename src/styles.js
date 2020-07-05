@@ -65,5 +65,8 @@ export const GlobalStyle = createGlobalStyle`
     &:hover {
         cursor: pointer;
     }
+    &:focus {
+        outline: none;
+    }
   }
 `;

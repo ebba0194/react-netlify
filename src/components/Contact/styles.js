@@ -61,7 +61,6 @@ export const StyledForm = styled.form`
         background-color: ${colors.burningOrange};
         color: ${colors.white};
         border: 0;
-        opacity: 0.85;
         svg {
             color: ${colors.white};
             padding-left: ${getRemsFromPixels(16)};

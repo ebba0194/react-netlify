@@ -7,18 +7,22 @@ export const StyledHero = styled(Container)`
     flex-flow: column nowrap;
     position: relative;
     background-color: ${colors.ebonyClay};
-    background-image: url('/skyline.jpg');
+    background-image: url('/background.png');
     background-attachment: fixed;
     background-position: center;
     background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    padding: ${getRemsFromPixels(16)};
     width: 100%;
-    padding: ${getRemsFromPixels(48)};
     button:hover {
         cursor: pointer;
     }
+    ${media.md`
+        min-height: 80vh;
+        padding: ${getRemsFromPixels(48)};
+    `}
 `;
 
 export const FullHeightRow = styled(Row)`
@@ -35,7 +39,7 @@ export const TextWrapper = styled.div`
     h1 {
         letter-spacing: ${getRemsFromPixels(8)};
         margin-bottom: 0;
-        font-size: ${getRemsFromPixels(30)};
+        font-size: ${getRemsFromPixels(32)};
         color: ${colors.white};
         text-shadow: 0 ${getRemsFromPixels(1)} ${colors.white};
         ${media.md`
@@ -71,7 +75,7 @@ export const ButtonWrapper = styled(Col)`
 `;
 
 export const Header = styled.div`
-    padding: ${getRemsFromPixels(10)} ${getRemsFromPixels(48)};
+    padding: ${getRemsFromPixels(16)} ${getRemsFromPixels(48)};
     box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     display: inline-flex;
@@ -88,7 +92,7 @@ export const Header = styled.div`
         font-size: ${getRemsFromPixels(18)};
         font-weight: 300;
         letter-spacing: ${getRemsFromPixels(2)};
-        margin: ${getRemsFromPixels(16)} ${getRemsFromPixels(32)};
+        margin: ${getRemsFromPixels(0)} ${getRemsFromPixels(8)};
         padding: 0;
         text-align: center;
         color: ${colors.white};
@@ -113,6 +117,9 @@ export const Header = styled.div`
                 border-color: ${colors.burningOrange};
             }
         }
+        ${media.md`
+            margin: ${getRemsFromPixels(16)} ${getRemsFromPixels(32)};
+        `}
     }
     ul {
         list-style-type: none;

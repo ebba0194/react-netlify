@@ -7,7 +7,6 @@ import Slider from "react-slick";
 
 const Projects = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    console.log(currentSlide);
     const settings = {
         dots: true,
         infinite: true,
