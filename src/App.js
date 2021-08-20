@@ -7,10 +7,10 @@ class App extends Component {
         return (
             <div className="bg-gray-900">
                 <div className="container max-w-6xl mx-auto">
-                    <div class="px-16 pt-16 text-gray-50">
-                        <h3 class="font-title text-4xl font-light">Here's some of my work.</h3>
+                    <div className="px-4 md:px-16 pt-16 text-gray-50">
+                        <h3 className="font-title text-4xl font-light">Here's some of my work.</h3>
                     </div>
-                    <div class="p-16 grid md:grid-cols-2 lg:grid-cols-3 xxl:grid-cols-4 gap-8">
+                    <div className="p-4 md:p-16 grid md:grid-cols-2 lg:grid-cols-3 xxl:grid-cols-4 gap-4 md:gap-8">
                         {projectData.map((project) => (
                             <div key={project.title}>
                                 <PortfolioItem project={project} />

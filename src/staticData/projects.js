@@ -217,7 +217,7 @@ export const projectData = [
             ' used Magento\'s Pagebuilder throughout  to manage their frequently updated messaging and content. </p>' +
             '<p>We introduced Styled Components to our best practices in this project, and also refined further some thoughts ' +
             'around code organization and SEO. This project was ideal to really identify and address pain points around scaling a react app to a larger, more complicated implementation ' +
-            'while keeping up performance benchmarks. I fell in love with CSS-in-JS and can\'t envision ever going back.</p>' +
+            'while keeping up performance benchmarks.' +
             '<p>Some of the technologies used: </p>' +
             '<ul>' +
             '<li><strong>React</strong></li>' +
