@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7603c960.chunk.css",
+    "main.js": "/static/js/main.18adf378.chunk.js",
+    "main.js.map": "/static/js/main.18adf378.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.daab1c56.js",
+    "runtime-main.js.map": "/static/js/runtime-main.daab1c56.js.map",
+    "static/js/2.3a1988f8.chunk.js": "/static/js/2.3a1988f8.chunk.js",
+    "static/js/2.3a1988f8.chunk.js.map": "/static/js/2.3a1988f8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7603c960.chunk.css.map": "/static/css/main.7603c960.chunk.css.map",
+    "static/js/2.3a1988f8.chunk.js.LICENSE.txt": "/static/js/2.3a1988f8.chunk.js.LICENSE.txt",
+    "static/media/Ambaum.7e69b9b5.png": "/static/media/Ambaum.7e69b9b5.png",
+    "static/media/Anova.a1cbf317.png": "/static/media/Anova.a1cbf317.png",
+    "static/media/Beekman.260fdedb.png": "/static/media/Beekman.260fdedb.png",
+    "static/media/Biocidin.791c5faf.png": "/static/media/Biocidin.791c5faf.png",
+    "static/media/Cloudpaper.179959c8.png": "/static/media/Cloudpaper.179959c8.png",
+    "static/media/Dewey.4344b28d.png": "/static/media/Dewey.4344b28d.png",
+    "static/media/EarthBreeze.f0acb986.png": "/static/media/EarthBreeze.f0acb986.png",
+    "static/media/Forti.429a6cd2.png": "/static/media/Forti.429a6cd2.png",
+    "static/media/Freedom.0502858a.png": "/static/media/Freedom.0502858a.png",
+    "static/media/Hammerhead.39c97f70.png": "/static/media/Hammerhead.39c97f70.png",
+    "static/media/HankyPanky.07c06335.png": "/static/media/HankyPanky.07c06335.png",
+    "static/media/Hanz.75a9a6c9.png": "/static/media/Hanz.75a9a6c9.png",
+    "static/media/Lobstergram.8a6a6132.png": "/static/media/Lobstergram.8a6a6132.png",
+    "static/media/Luwa.780f1a08.png": "/static/media/Luwa.780f1a08.png",
+    "static/media/Perigee.34f65661.png": "/static/media/Perigee.34f65661.png",
+    "static/media/Premier.c06c8c17.png": "/static/media/Premier.c06c8c17.png",
+    "static/media/RMG.bff88ed1.png": "/static/media/RMG.bff88ed1.png",
+    "static/media/Seven.f9c48193.png": "/static/media/Seven.f9c48193.png",
+    "static/media/Singer.5129ff27.png": "/static/media/Singer.5129ff27.png",
+    "static/media/Ultimate.2b0f4cb5.png": "/static/media/Ultimate.2b0f4cb5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daab1c56.js",
+    "static/js/2.3a1988f8.chunk.js",
+    "static/css/main.7603c960.chunk.css",
+    "static/js/main.18adf378.chunk.js"
+  ]
+}
